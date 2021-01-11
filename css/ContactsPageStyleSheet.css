@@ -1,0 +1,100 @@
+﻿#contactsBackPannelContainer {
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    color: #eedbff;
+    width: 771px;
+    height: 442px;
+}
+
+#contactsPageBackPannel {
+    position: absolute;
+    top: 0;
+}
+
+#contactsLogoText {
+    position: absolute;
+    top: 2.5%;
+    left: 18.5%;
+    font-size: 20px;
+    color: #e1cff1;
+}
+
+#contactsContainer {
+    position: absolute;
+    top: 14.4%;
+    left: 5%;
+    width: 493px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+
+.contactItemContainer {
+    height: 70px;
+    margin-top: 9px;
+    margin-left: 15px;
+    position:relative;
+}
+
+.contactItemPicture{
+    position:absolute;
+    height:50px;
+    width:50px;
+    top:10px;
+    left:10px;
+}
+
+.contactItemContainer p{
+    position:absolute;
+    top:20px;
+    left:70px;
+    font-size:25px;
+}
+
+.contactscontanerLine {
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 0px;
+    border-top-width: 0px;
+    left: 50%;
+    border-color: #eedbff;
+}
+
+.contactItemContainer:hover .contactscontanerLine {
+    width: 100%;
+    left: 0%;
+}
+
+.contactscontainerLineTop {
+    top: 6px;
+}
+
+.contactscontainerLineDown {
+    bottom: 6px;
+}
+
+.contactsDisplayNone{
+opacity:0;
+}
+
+.contactItemContainer:hover .contactsDisplayNone {
+opacity:1;
+}
+
+.contactMediaLinkButton{
+    transition-duration:0.4s;
+    background-color:none;
+}
+
+    .contactMediaLinkButton:hover {
+        background-color: #9472ac;
+        cursor:pointer;
+    }
+
+#contactsMap {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}

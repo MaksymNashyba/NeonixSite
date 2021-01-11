@@ -1,0 +1,42 @@
+﻿#CPConteiner{
+    position:relative;
+    width:75%;
+    left:12.5%;
+
+    top:90px;
+}
+
+.CPPannel{
+    position:absolute;
+
+    width:98%;
+}
+
+#CPBackPannel {
+    background-color: rgba(58, 7, 83, 0.33);
+}
+
+#CPMidPannel {
+    top: 8px;
+    left: 1.4%;
+    background-color: rgba(55, 7, 76, 0.66);
+}
+
+#CPTopPannel {
+    top: -17px;
+    right: 0.8%;
+    background-color: rgba(65, 8, 89, 1);
+}
+
+#CPLogoPannel{
+    position:absolute;
+    top:-75px;
+    left:-25px;
+}
+
+#CPLogoText {
+    position: absolute;
+    top: -62px;
+    left: 115px;
+color: #eedbff;
+}
