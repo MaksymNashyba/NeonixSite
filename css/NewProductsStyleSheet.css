@@ -1,0 +1,76 @@
+﻿#newProductsContainerContainer {
+}
+
+#newProductsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.newProductItem {
+    position: relative;
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 260px;
+    margin: 25px 15px 0px 15px;
+    clip-path: inset(3% 7% 3% 7%);
+    background-color: rgba(148, 114, 172, 0.3);
+}
+
+    .newProductItem:hover {
+        clip-path: inset(0% 0% 0% 0%);
+        background-color: rgba(148, 114, 172, 0.7);
+    }
+
+.newItemGloss {
+    transition-duration: 0.21s;
+    opacity: 0.8;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+.newProductItem:hover .newItemGloss {
+    top: -3px;
+    right: -3px;
+}
+
+.newItemPic {
+    position: absolute;
+    transition-duration: 0.23s;
+    width: 300px;
+    left: -40px;
+}
+
+.newProductItem:hover .newItemPic {
+    width: 250px;
+    left: -20px;
+}
+
+.newItemCardName {
+    position: absolute;
+    bottom: 22px;
+    font-size: 20px;
+    left: 20px;
+    color: #eedbff;
+}
+
+.newProductItem:hover .newItemCardName {
+    transition-duration: 0.2s;
+    bottom: 36px;
+    font-size: 25px;
+    left: 35px;
+}
+
+.newProductItemButton{
+    background:none;
+    border:none;
+}
+
+.newProductItemButton:active{
+    border:none;
+}
